@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_Location"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="#2196F3">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Name"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="60dp"
+        android:background="@color/white"
+        android:padding="3dp"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/etLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:padding="3dp"
+        android:hint="Longitude"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="60dp"
+        android:background="@color/white"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/etLatitude"
+        android:layout_width="match_parent"
+        android:padding="3dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Latitude"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="200dp"
+        android:background="@color/white"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/bAdd_Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/bGoMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"/>
+</LinearLayout>
